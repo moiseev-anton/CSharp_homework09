@@ -31,6 +31,5 @@ string GetNumbers(int number)
 }
 
 
-
 int n = Prompt("N = ");
 Write(GetNumbers(n));
