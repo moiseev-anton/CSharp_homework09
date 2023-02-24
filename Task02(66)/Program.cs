@@ -18,9 +18,7 @@ int Prompt(string message)
 int GetSumNumbers(int start, int end)
 {
     if (start == end)
-    {
         return start;
-    }
 
     int result = start + GetSumNumbers(start + 1, end);
     return result;
