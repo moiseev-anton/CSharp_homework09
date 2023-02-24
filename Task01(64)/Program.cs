@@ -24,7 +24,7 @@ string GetNumbers(int number)
 {
     if (number == 1)
     {
-        return 1.ToString();
+        return "1";
     }
     string s = number.ToString() + ' ' + GetNumbers(number - 1);
     return s;
