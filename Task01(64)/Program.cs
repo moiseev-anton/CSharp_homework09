@@ -23,9 +23,8 @@ int Prompt(string message)
 string GetNumbers(int number)
 {
     if (number == 1)
-    {
         return "1";
-    }
+    
     string s = number.ToString() + ' ' + GetNumbers(number - 1);
     return s;
 }
