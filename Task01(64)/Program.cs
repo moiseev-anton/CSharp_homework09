@@ -26,7 +26,7 @@ string GetNumbers(int number)
     {
         return 1.ToString();
     }
-    string s = number.ToString() + ' ' + GetNumbers(number-1);
+    string s = number.ToString() + ' ' + GetNumbers(number - 1);
     return s;
 }
 
